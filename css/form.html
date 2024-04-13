@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   .form-item {
+    margin-bottom: 10px; 
+  }
+</style>
+</head>
+<body>
+
+<h2>Quick Form</h2>
+
+<form action="/submit">
+  <div class="form-item">
+    Name: <input type="text" name="name">
+  </div>
+  <div class="form-item">
+    Email: <input type="email" name="email">
+  </div>
+  <div class="form-item">
+    Bio: <textarea name="bio"></textarea>
+  </div>
+  
+  <div class="form-item">
+    Gender:
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+  </div>
+  
+  <div class="form-item">
+    Interests:
+    <input type="checkbox" name="interests" value="coding"> Coding
+    <input type="checkbox" name="interests" value="music"> Music
+    <input type="checkbox" name="interests" value="Cricket"> Cricket
+  </div>
+  
+  
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
